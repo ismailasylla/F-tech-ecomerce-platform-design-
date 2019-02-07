@@ -1,0 +1,322 @@
+.logo{
+
+        
+  /*  padding: 5px;*/
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.logo:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+
+#header{
+
+ width: 500px;
+ height: 120px;
+ margin-right: 300px;
+
+
+
+}
+
+#slider{
+
+		padding: 150px;
+		width: 3000px;
+		height: 50px;
+
+
+}
+
+
+#futured{
+
+		/*margin: 0px;
+        padding-top: 5px;*/
+
+
+
+}
+
+
+
+
+
+
+/*#filtera{
+
+	padding-left: 100px;
+}*/
+
+#featured{
+
+
+    width: auto;
+    height: 200px;
+
+
+
+}
+#footer{
+
+padding: 20px;
+background-color: #239FE5;
+height: 60px;
+color: white;
+
+
+}
+
+
+
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+
+html,body
+{
+    margin: 0;
+    padding: 0;
+}
+img, a
+{
+    border: 0;
+    outline: 0;
+}
+*
+{
+  box-sizing:border-box;
+}
+.ContainerWrap
+{
+    max-width: 1180px;
+    min-width: 200px;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+  font-family: arial;
+}
+.Container
+{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.clearFix
+{
+    clear: both;
+    height: 0;
+}
+.AllSpecsDataWrap
+{
+
+}
+.SpecDataWrap
+{
+  position: relative;
+  min-height: 500px;
+  overflow: hidden;
+}
+.SpecDataWrap .SpecDataSlides img
+{
+  width: 100%;
+  line-height: 0;
+}
+.SpecDesc
+{
+  position: absolute;
+  top: 20%;
+  width: 500px;
+  color: #fff;
+  z-index: 4;
+}
+.SpecDescRight
+{
+  right: 10%;
+}
+.SpecDescLeft
+{
+  left: 10%;
+}
+.SpecDesc h2
+{
+    font-size: 45px;
+  margin: 20px 0px;
+}
+.SpecDescDetails
+{
+  font-size: 20px;
+}
+.SpecDataSlides
+{
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+.SpecSlideNavigation
+{
+      position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+.SpecSlideNav
+{
+  width: 34px;
+    height: 47px;
+    cursor: pointer;
+    margin-top: -23px;
+    position: absolute;
+    top: 50%;
+}
+.leftNavSpec
+{
+    background: url(http://s19.postimg.org/hl1jbk6tv/arrows_Moto_Carousel.png) no-repeat;
+    left: 5px;
+    background-position: 0px 0px;
+}
+.RightNavSpec
+{
+    background: url(http://s19.postimg.org/hl1jbk6tv/arrows_Moto_Carousel.png) no-repeat;
+    right: 5px;
+    background-position: 0px -48px;
+}
+.leftNavSpec:hover
+{
+  background-position: 0px -97px;
+}
+.RightNavSpec:hover
+{
+    background-position: 0px -145px;
+}
+.bulletsNavSpec
+{
+    display: block;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 20px;
+    left: 49%;
+}
+.bulletsNavSpec ul
+{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.bulletsNavSpec ul li
+{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.activeImage
+{
+    background: #999;
+}
+.InActiveImage
+{
+    background: #666;
+}
+@media screen  and (max-width: 980px){
+    .SpecDesc h2 {
+        font-size: 38px;
+        margin: 10px 0px;
+    }
+    .SpecDescDetails {
+        font-size: 18px;
+    }
+    .SpecDesc {
+        top: 10%;
+        width: 350px;
+    }
+    .SpecDescRight {
+        right: 5%;
+    }
+    .SpecDescLeft
+    {
+        left: 5%;
+    }
+    .bulletsNavSpec
+    {
+        bottom: 5px;
+    }
+    .SpecSlideNav
+    {
+        top: 30%;
+    }
+}
+@media screen and (max-width: 760px){
+    .SpecDesc {
+        width: 90%;
+        margin: 0 auto;
+        position: static;
+        color: #999;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px){
+    .SpecDesc h2 {
+        font-size: 28px;
+    }
+    .SpecDescDetails {
+        font-size: 14px;
+    }
+}
+
+.navbar-default{
+            bit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5); 
+    background-image: -o-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#54b4eb), color-stop(60%, #2fa4e7), to(#1d9ce5));
+     background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5); 
+     background-repeat: no-repeat; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54b4eb', endColorstr='#ff1d9ce5', GradientType=0);
+     border-bottom: 1px solid #ackground-image: -webk178acc !important; 
+     border-color: black !important; 
+    -webkit-filter: none;
+    filter: none;
+    -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+     background-color: transparent !important; 
+}
+
